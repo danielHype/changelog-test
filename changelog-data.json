@@ -8,9 +8,26 @@
     "minor": false,
     "tag": null,
     "title": "Unreleased",
-    "date": "2023-07-04T18:32:14.319Z",
+    "date": "2023-07-04T18:45:26.391Z",
     "summary": null,
     "commits": [
+      {
+        "hash": "048a1f0df7c62721475cf64e81044267907f55fb",
+        "shorthash": "048a1f0",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T18:33:06.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "feat: different changes to hbs file",
+        "message": "feat: different changes to hbs file",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/048a1f0df7c62721475cf64e81044267907f55fb",
+        "breaking": false,
+        "files": 4,
+        "insertions": 353,
+        "deletions": 16,
+        "merge": null
+      },
       {
         "hash": "90ead063cd43be58ec9a8caf6ceec618a8afc1c7",
         "shorthash": "90ead06",
@@ -25,6 +42,57 @@
         "breaking": false,
         "files": 4,
         "insertions": 53,
+        "deletions": 0,
+        "merge": null
+      },
+      {
+        "hash": "899ad572740c65c3f237d38b5846dfe19e235c89",
+        "shorthash": "899ad57",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T18:40:09.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "feat: changes 6789",
+        "message": "feat: changes 6789",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/899ad572740c65c3f237d38b5846dfe19e235c89",
+        "breaking": false,
+        "files": 1,
+        "insertions": 2,
+        "deletions": 1,
+        "merge": null
+      },
+      {
+        "hash": "ec4fcb5ab8198a215a26b5504726e3df9eca2858",
+        "shorthash": "ec4fcb5",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T18:38:43.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "feat: change index file 2345",
+        "message": "feat: change index file 2345",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/ec4fcb5ab8198a215a26b5504726e3df9eca2858",
+        "breaking": false,
+        "files": 1,
+        "insertions": 1,
+        "deletions": 0,
+        "merge": null
+      },
+      {
+        "hash": "7fd49779ad570ae64b30496892d651828e1c52e2",
+        "shorthash": "7fd4977",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T18:33:40.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "feat: change index file",
+        "message": "feat: change index file",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/7fd49779ad570ae64b30496892d651828e1c52e2",
+        "breaking": false,
+        "files": 1,
+        "insertions": 1,
         "deletions": 0,
         "merge": null
       },
@@ -47,6 +115,121 @@
       }
     ],
     "merges": [
+      {
+        "id": "6",
+        "message": "[`LE-2345`](https://issues.apache.org/jira/browse/LE-2345)-Refactor-Database-Queries",
+        "href": "https://github.com/danielHype/changelog-test/pull/6",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+          "shorthash": "8f3c3e4",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:41:32.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #6 from danielHype/[`LE-2345`](https://issues.apache.org/jira/browse/LE-2345)-Refactor-Database-Queries",
+          "message": "Merge pull request #6 from danielHype/LE-2345-Refactor-Database-Queries\n\nLE-2345-Refactor-Database-Queries",
+          "fixes": [
+            {
+              "id": "LE-2345",
+              "href": "https://issues.apache.org/jira/browse/LE-2345",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-2345",
+              "href": "https://issues.apache.org/jira/browse/LE-2345",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+          "breaking": false
+        }
+      },
+      {
+        "id": "7",
+        "message": "[`LE-6789`](https://issues.apache.org/jira/browse/LE-6789)-Version-2.0",
+        "href": "https://github.com/danielHype/changelog-test/pull/7",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "a6722214f3bbaf359b9090e0195294726dbc836a",
+          "shorthash": "a672221",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:41:17.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #7 from danielHype/[`LE-6789`](https://issues.apache.org/jira/browse/LE-6789)-Version-2.0",
+          "message": "Merge pull request #7 from danielHype/LE-6789-Version-2.0\n\nLE-6789-Version-2.0",
+          "fixes": [
+            {
+              "id": "LE-6789",
+              "href": "https://issues.apache.org/jira/browse/LE-6789",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-6789",
+              "href": "https://issues.apache.org/jira/browse/LE-6789",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/a6722214f3bbaf359b9090e0195294726dbc836a",
+          "breaking": false
+        }
+      },
+      {
+        "id": "4",
+        "message": "[`LE-3456`](https://issues.apache.org/jira/browse/LE-3456)-User-Management-Module",
+        "href": "https://github.com/danielHype/changelog-test/pull/4",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+          "shorthash": "f51214a",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:35:41.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #4 from danielHype/[`LE-3456`](https://issues.apache.org/jira/browse/LE-3456)-User-Management-Module",
+          "message": "Merge pull request #4 from danielHype/LE-3456-User-Management-Module\n\nLE-3456-User-Management-Module",
+          "fixes": [
+            {
+              "id": "LE-3456",
+              "href": "https://issues.apache.org/jira/browse/LE-3456",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-3456",
+              "href": "https://issues.apache.org/jira/browse/LE-3456",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+          "breaking": false
+        }
+      },
+      {
+        "id": "5",
+        "message": "feat: change index file 7890",
+        "href": "https://github.com/danielHype/changelog-test/pull/5",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+          "shorthash": "fac8778",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:35:32.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #5 from danielHype/[`LE-7890`](https://issues.apache.org/jira/browse/LE-7890)-Update-Documentation",
+          "message": "Merge pull request #5 from danielHype/LE-7890-Update-Documentation\n\nfeat: change index file 7890",
+          "fixes": [
+            {
+              "id": "LE-7890",
+              "href": "https://issues.apache.org/jira/browse/LE-7890",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+          "breaking": false
+        }
+      },
       {
         "id": "3",
         "message": "feat: add content to demo file",
@@ -124,6 +307,263 @@
       }
     ],
     "fixes": [
+      {
+        "fixes": [
+          {
+            "id": "LE-2345",
+            "href": "https://issues.apache.org/jira/browse/LE-2345",
+            "author": "Daniel \"Datproto\" | HG"
+          },
+          {
+            "id": "LE-2345",
+            "href": "https://issues.apache.org/jira/browse/LE-2345",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+          "shorthash": "8f3c3e4",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:41:32.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #6 from danielHype/[`LE-2345`](https://issues.apache.org/jira/browse/LE-2345)-Refactor-Database-Queries",
+          "message": "Merge pull request #6 from danielHype/LE-2345-Refactor-Database-Queries\n\nLE-2345-Refactor-Database-Queries",
+          "fixes": [
+            {
+              "id": "LE-2345",
+              "href": "https://issues.apache.org/jira/browse/LE-2345",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-2345",
+              "href": "https://issues.apache.org/jira/browse/LE-2345",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+          "breaking": false,
+          "merge": {
+            "id": "6",
+            "message": "[`LE-2345`](https://issues.apache.org/jira/browse/LE-2345)-Refactor-Database-Queries",
+            "href": "https://github.com/danielHype/changelog-test/pull/6",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+              "shorthash": "8f3c3e4",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:41:32.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #6 from danielHype/[`LE-2345`](https://issues.apache.org/jira/browse/LE-2345)-Refactor-Database-Queries",
+              "message": "Merge pull request #6 from danielHype/LE-2345-Refactor-Database-Queries\n\nLE-2345-Refactor-Database-Queries",
+              "fixes": [
+                {
+                  "id": "LE-2345",
+                  "href": "https://issues.apache.org/jira/browse/LE-2345",
+                  "author": "Daniel \"Datproto\" | HG"
+                },
+                {
+                  "id": "LE-2345",
+                  "href": "https://issues.apache.org/jira/browse/LE-2345",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/8f3c3e496660b3241f50dedd09d5744ce4e214bf",
+              "breaking": false
+            }
+          }
+        }
+      },
+      {
+        "fixes": [
+          {
+            "id": "LE-6789",
+            "href": "https://issues.apache.org/jira/browse/LE-6789",
+            "author": "Daniel \"Datproto\" | HG"
+          },
+          {
+            "id": "LE-6789",
+            "href": "https://issues.apache.org/jira/browse/LE-6789",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "a6722214f3bbaf359b9090e0195294726dbc836a",
+          "shorthash": "a672221",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:41:17.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #7 from danielHype/[`LE-6789`](https://issues.apache.org/jira/browse/LE-6789)-Version-2.0",
+          "message": "Merge pull request #7 from danielHype/LE-6789-Version-2.0\n\nLE-6789-Version-2.0",
+          "fixes": [
+            {
+              "id": "LE-6789",
+              "href": "https://issues.apache.org/jira/browse/LE-6789",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-6789",
+              "href": "https://issues.apache.org/jira/browse/LE-6789",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/a6722214f3bbaf359b9090e0195294726dbc836a",
+          "breaking": false,
+          "merge": {
+            "id": "7",
+            "message": "[`LE-6789`](https://issues.apache.org/jira/browse/LE-6789)-Version-2.0",
+            "href": "https://github.com/danielHype/changelog-test/pull/7",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "a6722214f3bbaf359b9090e0195294726dbc836a",
+              "shorthash": "a672221",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:41:17.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #7 from danielHype/[`LE-6789`](https://issues.apache.org/jira/browse/LE-6789)-Version-2.0",
+              "message": "Merge pull request #7 from danielHype/LE-6789-Version-2.0\n\nLE-6789-Version-2.0",
+              "fixes": [
+                {
+                  "id": "LE-6789",
+                  "href": "https://issues.apache.org/jira/browse/LE-6789",
+                  "author": "Daniel \"Datproto\" | HG"
+                },
+                {
+                  "id": "LE-6789",
+                  "href": "https://issues.apache.org/jira/browse/LE-6789",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/a6722214f3bbaf359b9090e0195294726dbc836a",
+              "breaking": false
+            }
+          }
+        }
+      },
+      {
+        "fixes": [
+          {
+            "id": "LE-3456",
+            "href": "https://issues.apache.org/jira/browse/LE-3456",
+            "author": "Daniel \"Datproto\" | HG"
+          },
+          {
+            "id": "LE-3456",
+            "href": "https://issues.apache.org/jira/browse/LE-3456",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+          "shorthash": "f51214a",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:35:41.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #4 from danielHype/[`LE-3456`](https://issues.apache.org/jira/browse/LE-3456)-User-Management-Module",
+          "message": "Merge pull request #4 from danielHype/LE-3456-User-Management-Module\n\nLE-3456-User-Management-Module",
+          "fixes": [
+            {
+              "id": "LE-3456",
+              "href": "https://issues.apache.org/jira/browse/LE-3456",
+              "author": "Daniel \"Datproto\" | HG"
+            },
+            {
+              "id": "LE-3456",
+              "href": "https://issues.apache.org/jira/browse/LE-3456",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+          "breaking": false,
+          "merge": {
+            "id": "4",
+            "message": "[`LE-3456`](https://issues.apache.org/jira/browse/LE-3456)-User-Management-Module",
+            "href": "https://github.com/danielHype/changelog-test/pull/4",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+              "shorthash": "f51214a",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:35:41.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #4 from danielHype/[`LE-3456`](https://issues.apache.org/jira/browse/LE-3456)-User-Management-Module",
+              "message": "Merge pull request #4 from danielHype/LE-3456-User-Management-Module\n\nLE-3456-User-Management-Module",
+              "fixes": [
+                {
+                  "id": "LE-3456",
+                  "href": "https://issues.apache.org/jira/browse/LE-3456",
+                  "author": "Daniel \"Datproto\" | HG"
+                },
+                {
+                  "id": "LE-3456",
+                  "href": "https://issues.apache.org/jira/browse/LE-3456",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/f51214a53dcc01c14084ab2a7903ffc7ffc5a08b",
+              "breaking": false
+            }
+          }
+        }
+      },
+      {
+        "fixes": [
+          {
+            "id": "LE-7890",
+            "href": "https://issues.apache.org/jira/browse/LE-7890",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+          "shorthash": "fac8778",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:35:32.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #5 from danielHype/[`LE-7890`](https://issues.apache.org/jira/browse/LE-7890)-Update-Documentation",
+          "message": "Merge pull request #5 from danielHype/LE-7890-Update-Documentation\n\nfeat: change index file 7890",
+          "fixes": [
+            {
+              "id": "LE-7890",
+              "href": "https://issues.apache.org/jira/browse/LE-7890",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+          "breaking": false,
+          "merge": {
+            "id": "5",
+            "message": "feat: change index file 7890",
+            "href": "https://github.com/danielHype/changelog-test/pull/5",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+              "shorthash": "fac8778",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:35:32.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #5 from danielHype/[`LE-7890`](https://issues.apache.org/jira/browse/LE-7890)-Update-Documentation",
+              "message": "Merge pull request #5 from danielHype/LE-7890-Update-Documentation\n\nfeat: change index file 7890",
+              "fixes": [
+                {
+                  "id": "LE-7890",
+                  "href": "https://issues.apache.org/jira/browse/LE-7890",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/fac8778bed76e9d17bfbb71aebc9447e88b94e05",
+              "breaking": false
+            }
+          }
+        }
+      },
       {
         "fixes": [
           {
