@@ -5,7 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.0](https://github.com/danielHype/changelog-test/compare/1.2.0...1.3.0)
+## [v1.4.0](https://github.com/danielHype/changelog-test/compare/v1.3.0...v1.4.0)
+
+### Merged
+
+- [`LE-4561`](https://issues.apache.org/jira/browse/LE-4561)-Refactor-Database-Queries [`#13`](https://github.com/danielHype/changelog-test/pull/13)
+- [`LE-2349`](https://issues.apache.org/jira/browse/LE-2349)-Fix-CSS-Styling-Issues [`#12`](https://github.com/danielHype/changelog-test/pull/12)
+- [`LE-7892`](https://issues.apache.org/jira/browse/LE-7892)-Implement-User-Authentication [`#11`](https://github.com/danielHype/changelog-test/pull/11)
+
+### Commits
+
+- feat: changes 4561 [`ca16e03`](https://github.com/danielHype/changelog-test/commit/ca16e03dac60f8e0fbf20aa738029bd50eee5829)
+
+## [v1.3.0](https://github.com/danielHype/changelog-test/compare/1.2.0...v1.3.0) - 2023-07-04
 
 ### Commits
 
