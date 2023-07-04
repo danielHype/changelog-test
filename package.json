@@ -1,18 +1,18 @@
 {
     "name": "my-awesome-package",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scripts": {
         "version": "auto-changelog --template changelog-template.hbs -p && git add CHANGELOG.md"
-      },
+    },
     "auto-changelog": {
-      "output": "CHANGELOG.md",
-      "template": "keepachangelog",
-      "unreleased": true,
-      "commitLimit": false,
-      "issueUrl": "https://issues.apache.org/jira/browse/{id}",
-      "issuePattern": "[A-Z]+-\\d+",
-      "replaceText": {
-        "(LE-\\d+)": "[`$1`](https://issues.apache.org/jira/browse/$1)"
-      }
+        "output": "CHANGELOG.md",
+        "template": "keepachangelog",
+        "unreleased": true,
+        "commitLimit": false,
+        "issueUrl": "https://issues.apache.org/jira/browse/{id}",
+        "issuePattern": "[A-Z]+-\\d+",
+        "replaceText": {
+            "(LE-\\d+)": "[`$1`](https://issues.apache.org/jira/browse/$1)"
+        }
     }
-  }
+}
