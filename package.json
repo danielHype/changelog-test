@@ -1,6 +1,6 @@
 {
     "name": "my-awesome-package",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "scripts": {
         "version": "auto-changelog --template changelog-template.hbs -p && git add CHANGELOG.md"
     },
