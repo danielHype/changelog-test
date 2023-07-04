@@ -1,0 +1,288 @@
+[
+  {
+    "isoDate": "2023-07-04",
+    "niceDate": "4 July 2023",
+    "diff": "HEAD",
+    "href": null,
+    "major": false,
+    "minor": false,
+    "tag": null,
+    "title": "Unreleased",
+    "date": "2023-07-04T18:32:14.319Z",
+    "summary": null,
+    "commits": [
+      {
+        "hash": "90ead063cd43be58ec9a8caf6ceec618a8afc1c7",
+        "shorthash": "90ead06",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T18:17:24.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "feat: test setup for auto-changelog",
+        "message": "feat: test setup for auto-changelog",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/90ead063cd43be58ec9a8caf6ceec618a8afc1c7",
+        "breaking": false,
+        "files": 4,
+        "insertions": 53,
+        "deletions": 0,
+        "merge": null
+      },
+      {
+        "hash": "06f7bfda97fd519eafe2e1b0216e24aac3bad66f",
+        "shorthash": "06f7bfd",
+        "author": "Daniel",
+        "email": "daniel@hashguild.xyz",
+        "date": "2023-07-04T17:58:08.000Z",
+        "niceDate": "4 July 2023",
+        "subject": "first commit",
+        "message": "first commit",
+        "fixes": null,
+        "href": "https://github.com/danielHype/changelog-test/commit/06f7bfda97fd519eafe2e1b0216e24aac3bad66f",
+        "breaking": false,
+        "files": 1,
+        "insertions": 1,
+        "deletions": 0,
+        "merge": null
+      }
+    ],
+    "merges": [
+      {
+        "id": "3",
+        "message": "feat: add content to demo file",
+        "href": "https://github.com/danielHype/changelog-test/pull/3",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "f36fe64779c70586bd57ee961a14119ab4e57736",
+          "shorthash": "f36fe64",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:19:49.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #3 from danielHype/[`LE-9012`](https://issues.apache.org/jira/browse/LE-9012)-Enhance-Search-Functionality",
+          "message": "Merge pull request #3 from danielHype/LE-9012-Enhance-Search-Functionality\n\nfeat: add content to demo file",
+          "fixes": [
+            {
+              "id": "LE-9012",
+              "href": "https://issues.apache.org/jira/browse/LE-9012",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/f36fe64779c70586bd57ee961a14119ab4e57736",
+          "breaking": false
+        }
+      },
+      {
+        "id": "2",
+        "message": "feat: add example index file",
+        "href": "https://github.com/danielHype/changelog-test/pull/2",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "ca4a2bd20de58b71487e3908d654efc32bf98714",
+          "shorthash": "ca4a2bd",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:19:00.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #2 from danielHype/[`LE-5678`](https://issues.apache.org/jira/browse/LE-5678)-NullPointer-Exception-Fix",
+          "message": "Merge pull request #2 from danielHype/LE-5678-NullPointer-Exception-Fix\n\nfeat: add example index file",
+          "fixes": [
+            {
+              "id": "LE-5678",
+              "href": "https://issues.apache.org/jira/browse/LE-5678",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/ca4a2bd20de58b71487e3908d654efc32bf98714",
+          "breaking": false
+        }
+      },
+      {
+        "id": "1",
+        "message": "fix: delete wrong changelog file",
+        "href": "https://github.com/danielHype/changelog-test/pull/1",
+        "author": "Daniel \"Datproto\" | HG",
+        "commit": {
+          "hash": "58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+          "shorthash": "58bff69",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:18:08.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #1 from danielHype/[`LE-1234`](https://issues.apache.org/jira/browse/LE-1234)-Redesign-Homepage",
+          "message": "Merge pull request #1 from danielHype/LE-1234-Redesign-Homepage\n\nfix: delete wrong changelog file",
+          "fixes": [
+            {
+              "id": "LE-1234",
+              "href": "https://issues.apache.org/jira/browse/LE-1234",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+          "breaking": false
+        }
+      }
+    ],
+    "fixes": [
+      {
+        "fixes": [
+          {
+            "id": "LE-9012",
+            "href": "https://issues.apache.org/jira/browse/LE-9012",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "f36fe64779c70586bd57ee961a14119ab4e57736",
+          "shorthash": "f36fe64",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:19:49.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #3 from danielHype/[`LE-9012`](https://issues.apache.org/jira/browse/LE-9012)-Enhance-Search-Functionality",
+          "message": "Merge pull request #3 from danielHype/LE-9012-Enhance-Search-Functionality\n\nfeat: add content to demo file",
+          "fixes": [
+            {
+              "id": "LE-9012",
+              "href": "https://issues.apache.org/jira/browse/LE-9012",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/f36fe64779c70586bd57ee961a14119ab4e57736",
+          "breaking": false,
+          "merge": {
+            "id": "3",
+            "message": "feat: add content to demo file",
+            "href": "https://github.com/danielHype/changelog-test/pull/3",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "f36fe64779c70586bd57ee961a14119ab4e57736",
+              "shorthash": "f36fe64",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:19:49.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #3 from danielHype/[`LE-9012`](https://issues.apache.org/jira/browse/LE-9012)-Enhance-Search-Functionality",
+              "message": "Merge pull request #3 from danielHype/LE-9012-Enhance-Search-Functionality\n\nfeat: add content to demo file",
+              "fixes": [
+                {
+                  "id": "LE-9012",
+                  "href": "https://issues.apache.org/jira/browse/LE-9012",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/f36fe64779c70586bd57ee961a14119ab4e57736",
+              "breaking": false
+            }
+          }
+        }
+      },
+      {
+        "fixes": [
+          {
+            "id": "LE-5678",
+            "href": "https://issues.apache.org/jira/browse/LE-5678",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "ca4a2bd20de58b71487e3908d654efc32bf98714",
+          "shorthash": "ca4a2bd",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:19:00.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #2 from danielHype/[`LE-5678`](https://issues.apache.org/jira/browse/LE-5678)-NullPointer-Exception-Fix",
+          "message": "Merge pull request #2 from danielHype/LE-5678-NullPointer-Exception-Fix\n\nfeat: add example index file",
+          "fixes": [
+            {
+              "id": "LE-5678",
+              "href": "https://issues.apache.org/jira/browse/LE-5678",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/ca4a2bd20de58b71487e3908d654efc32bf98714",
+          "breaking": false,
+          "merge": {
+            "id": "2",
+            "message": "feat: add example index file",
+            "href": "https://github.com/danielHype/changelog-test/pull/2",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "ca4a2bd20de58b71487e3908d654efc32bf98714",
+              "shorthash": "ca4a2bd",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:19:00.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #2 from danielHype/[`LE-5678`](https://issues.apache.org/jira/browse/LE-5678)-NullPointer-Exception-Fix",
+              "message": "Merge pull request #2 from danielHype/LE-5678-NullPointer-Exception-Fix\n\nfeat: add example index file",
+              "fixes": [
+                {
+                  "id": "LE-5678",
+                  "href": "https://issues.apache.org/jira/browse/LE-5678",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/ca4a2bd20de58b71487e3908d654efc32bf98714",
+              "breaking": false
+            }
+          }
+        }
+      },
+      {
+        "fixes": [
+          {
+            "id": "LE-1234",
+            "href": "https://issues.apache.org/jira/browse/LE-1234",
+            "author": "Daniel \"Datproto\" | HG"
+          }
+        ],
+        "commit": {
+          "hash": "58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+          "shorthash": "58bff69",
+          "author": "Daniel \"Datproto\" | HG",
+          "email": "66954240+danielHype@users.noreply.github.com",
+          "date": "2023-07-04T18:18:08.000Z",
+          "niceDate": "4 July 2023",
+          "subject": "Merge pull request #1 from danielHype/[`LE-1234`](https://issues.apache.org/jira/browse/LE-1234)-Redesign-Homepage",
+          "message": "Merge pull request #1 from danielHype/LE-1234-Redesign-Homepage\n\nfix: delete wrong changelog file",
+          "fixes": [
+            {
+              "id": "LE-1234",
+              "href": "https://issues.apache.org/jira/browse/LE-1234",
+              "author": "Daniel \"Datproto\" | HG"
+            }
+          ],
+          "href": "https://github.com/danielHype/changelog-test/commit/58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+          "breaking": false,
+          "merge": {
+            "id": "1",
+            "message": "fix: delete wrong changelog file",
+            "href": "https://github.com/danielHype/changelog-test/pull/1",
+            "author": "Daniel \"Datproto\" | HG",
+            "commit": {
+              "hash": "58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+              "shorthash": "58bff69",
+              "author": "Daniel \"Datproto\" | HG",
+              "email": "66954240+danielHype@users.noreply.github.com",
+              "date": "2023-07-04T18:18:08.000Z",
+              "niceDate": "4 July 2023",
+              "subject": "Merge pull request #1 from danielHype/[`LE-1234`](https://issues.apache.org/jira/browse/LE-1234)-Redesign-Homepage",
+              "message": "Merge pull request #1 from danielHype/LE-1234-Redesign-Homepage\n\nfix: delete wrong changelog file",
+              "fixes": [
+                {
+                  "id": "LE-1234",
+                  "href": "https://issues.apache.org/jira/browse/LE-1234",
+                  "author": "Daniel \"Datproto\" | HG"
+                }
+              ],
+              "href": "https://github.com/danielHype/changelog-test/commit/58bff69cc6e519494b4d5e5a53fca0d24dd494bf",
+              "breaking": false
+            }
+          }
+        }
+      }
+    ]
+  }
+]
